@@ -23,7 +23,7 @@ A user reports they cannot access websites on their computer.
 4. Reviewed results to determine whether the issue was connectivity or DNS related
 
 ### Resolution
-Confirmed that network connectivity was available but DNS resolution was failing. Documented DNS troubleshooting steps and verified name resolution.
+Verified that the system had a valid IP configuration, successful internet connectivity, and functioning DNS resolution. No network configuration issues were detected.
 
 ### Tools Used
 - Command Prompt
@@ -32,6 +32,20 @@ Confirmed that network connectivity was available but DNS resolution was failing
 - nslookup
 
 ---
+
+### Screenshots
+
+**IP Configuration Check**
+
+![ipconfig output](screenshots/ticket001-ipconfig.png)
+
+**Connectivity Test**
+
+![ping test](screenshots/ticket001-ping.png)
+
+**DNS Resolution Test**
+
+![nslookup test](screenshots/ticket001-nslookup.png)
 
 ## Ticket 002 - Account Locked / Password Reset
 
